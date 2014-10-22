@@ -116,7 +116,7 @@ public class CoinDefinition {
     static public int genesisBlockValue = 1772;                                                              //main.cpp: LoadBlockIndex
     //taken from the raw data of the block explorer
     static public String genesisTxInBytes = "53f66e64616720353a65206a616e756172692032303134202d204d74476f782072656769737472657261722066f67220616e6472612067e56e67656e204254432070e520f67665722024313030302e";   //"Söndag 5:e januari 2014 - MtGox registrerar för andra gången BTC på över $1000."
-    static public String genesisTxOutBytes = "";
+    static public String genesisTxOutBytes = "040184710fa689ad5023690c80f3a49c8f13f8d45b8c857fbcbc8bc4a8e4d3eb4b10f4d4604fa08dce601aaf0f470216fe1b51850b4acf21b179c45070ac7b03a9";
 
     //net.cpp strDNSSeed
     static public String[] dnsSeeds = new String[] {
@@ -161,7 +161,7 @@ public class CoinDefinition {
           "not supported"
     };
     //from main.h: CAlert::CheckSignature
-    public static final String SATOSHI_KEY = "04A9CFD81AF5D53310BE45E6326E706A542B1028DF85D2819D5DE496D8816C83129CE874FE5E3A23B03544BFF35458833779DAB7A6FF687525A4E23CA59F1E2B94";
+    public static final String SATOSHI_KEY = "040184710FA689AD5023690C80F3A49C8F13F8D45B8C857FBCBC8BC4A8E4D3EB4B10F4D4604FA08DCE601AAF0F470216FE1B51850B4ACF21B179C45070AC7B03A9";
     public static final String TESTNET_SATOSHI_KEY = "";
 
     /** The string returned by getId() for the main, production network where people trade things. */
