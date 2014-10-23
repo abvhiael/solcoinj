@@ -45,6 +45,7 @@ public class MainNetParams extends NetworkParameters {
         id = ID_MAINNET;
         subsidyDecreaseBlockCount = CoinDefinition.subsidyDecreaseBlockCount;
         spendableCoinbaseDepth = CoinDefinition.spendableCoinbaseDepth;
+        genesisBlock.setMerkleRoot(new Sha256Hash("4b1087013c57fb7fe108a48663a607509fdf0e688b69d68d2f16c38211ad168a"));
         String genesisHash = genesisBlock.getHashAsString();
         checkState(genesisHash.equals(CoinDefinition.genesisHash),
                 genesisHash);

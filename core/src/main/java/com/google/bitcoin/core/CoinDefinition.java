@@ -115,7 +115,7 @@ public class CoinDefinition {
     static public String genesisHash = "579b9ba9d7e8de5fbcc9b76cc90324f4b5d2e95855eeb67ed23c85e73cc2e54d"; //main.cpp: hashGenesisBlock
     static public int genesisBlockValue = 1772;                                                              //main.cpp: LoadBlockIndex
     //taken from the raw data of the block explorer
-    static public String genesisTxInBytes = "53f66e64616720353a65206a616e756172692032303134202d204d74476f782072656769737472657261722066f67220616e6472612067e56e67656e204254432070e520f67665722024313030302e";   //"Söndag 5:e januari 2014 - MtGox registrerar för andra gången BTC på över $1000."
+    static public String genesisTxInBytes = "";   //"Söndag 5:e januari 2014 - MtGox registrerar för andra gången BTC på över $1000."
     static public String genesisTxOutBytes = "040184710fa689ad5023690c80f3a49c8f13f8d45b8c857fbcbc8bc4a8e4d3eb4b10f4d4604fa08dce601aaf0f470216fe1b51850b4acf21b179c45070ac7b03a9";
 
     //net.cpp strDNSSeed
